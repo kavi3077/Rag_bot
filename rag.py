@@ -17,7 +17,7 @@ st.title("📚 RAG Bot — By Kavi")
 # HuggingFace LLM Setup
 # -----------------------------
 # Replace "YOUR_HF_TOKEN" with your HuggingFace API token
-HUGGINGFACEHUB_API_TOKEN = "YOUR_HF_TOKEN"
+HUGGINGFACEHUB_API_TOKEN = "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"
 
 llm = HuggingFaceHub(
     repo_id="tiiuae/falcon-7b-instruct",
@@ -65,5 +65,6 @@ if uploaded_file is not None:
             answer = qa.run(query)
         st.markdown("**Answer:**")
         st.write(answer)
+
 
 
