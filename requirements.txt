@@ -1,8 +1,8 @@
-streamlit
+langchain==0.1.104
 sentence-transformers
 faiss-cpu
+streamlit
 PyMuPDF
-langchain
 huggingface-hub
 numpy
 
