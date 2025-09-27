@@ -1,6 +1,6 @@
 # rag_streamlit_safe.py
 import streamlit as st
-from langchain.vectorstores import FAISS
+from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.document_loaders import PyMuPDFLoader
@@ -65,6 +65,7 @@ if uploaded_file is not None:
             answer = qa.run(query)
         st.markdown("**Answer:**")
         st.write(answer)
+
 
 
 
