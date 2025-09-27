@@ -2,5 +2,7 @@ streamlit
 sentence-transformers
 faiss-cpu
 PyMuPDF
-ollama
+langchain
+huggingface-hub
 numpy
+
